@@ -1,0 +1,426 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'angular-oauth2' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose read json /var/www/html/blog/package.json
+5 verbose from cache /var/www/html/blog/package.json
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'angular-oauth2', null ]
+8 verbose cache add name=undefined spec="angular-oauth2" args=["angular-oauth2",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'angular-oauth2',
+9 verbose parsed url   path: 'angular-oauth2',
+9 verbose parsed url   href: 'angular-oauth2' }
+10 silly lockFile d9061a14-angular-oauth2 angular-oauth2
+11 verbose lock angular-oauth2 /home/jonathan/.npm/d9061a14-angular-oauth2.lock
+12 silly lockFile d9061a14-angular-oauth2 angular-oauth2
+13 silly lockFile d9061a14-angular-oauth2 angular-oauth2
+14 verbose addNamed [ 'angular-oauth2', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile 61b9caaf-angular-oauth2 angular-oauth2@
+17 verbose lock angular-oauth2@ /home/jonathan/.npm/61b9caaf-angular-oauth2.lock
+18 silly addNameRange { name: 'angular-oauth2', range: '', hasData: false }
+19 verbose url raw angular-oauth2
+20 verbose url resolving [ 'https://registry.npmjs.org/', './angular-oauth2' ]
+21 verbose url resolved https://registry.npmjs.org/angular-oauth2
+22 info trying registry request attempt 1 at 16:40:46
+23 http GET https://registry.npmjs.org/angular-oauth2
+24 http 200 https://registry.npmjs.org/angular-oauth2
+25 silly registry.get cb [ 200,
+25 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly registry.get     etag: '"6TWXFBU99MNZHXE3CNFNHEI4V"',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'cache-control': 'max-age=300',
+25 silly registry.get     'content-length': '25679',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     date: 'Tue, 15 Mar 2016 19:40:49 GMT',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '0',
+25 silly registry.get     connection: 'keep-alive',
+25 silly registry.get     'x-served-by': 'cache-iad2124-IAD',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1458070848.949718,VS0,VE97',
+25 silly registry.get     vary: 'Accept' } ]
+26 silly addNameRange number 2 { name: 'angular-oauth2', range: '', hasData: true }
+27 silly addNameRange versions [ 'angular-oauth2',
+27 silly addNameRange   [ '1.0.0',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.0.2',
+27 silly addNameRange     '2.0.0',
+27 silly addNameRange     '2.1.0',
+27 silly addNameRange     '2.1.1',
+27 silly addNameRange     '3.0.0',
+27 silly addNameRange     '3.0.1',
+27 silly addNameRange     '3.1.0',
+27 silly addNameRange     '3.1.1',
+27 silly addNameRange     '4.0.0' ] ]
+28 verbose addNamed [ 'angular-oauth2', '4.0.0' ]
+29 verbose addNamed [ '4.0.0', '4.0.0' ]
+30 silly lockFile 4c756fc1-angular-oauth2-4-0-0 angular-oauth2@4.0.0
+31 verbose lock angular-oauth2@4.0.0 /home/jonathan/.npm/4c756fc1-angular-oauth2-4-0-0.lock
+32 silly lockFile 1ef0b63f--oauth2-angular-oauth2-4-0-0-tgz https://registry.npmjs.org/angular-oauth2/-/angular-oauth2-4.0.0.tgz
+33 verbose lock https://registry.npmjs.org/angular-oauth2/-/angular-oauth2-4.0.0.tgz /home/jonathan/.npm/1ef0b63f--oauth2-angular-oauth2-4-0-0-tgz.lock
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-oauth2/-/angular-oauth2-4.0.0.tgz',
+34 verbose addRemoteTarball   '3a6c3fad0e751fe48548d9d450eb373aef1ed478' ]
+35 info retry fetch attempt 1 at 16:40:49
+36 verbose fetch to= /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/tmp.tgz
+37 http GET https://registry.npmjs.org/angular-oauth2/-/angular-oauth2-4.0.0.tgz
+38 http 200 https://registry.npmjs.org/angular-oauth2/-/angular-oauth2-4.0.0.tgz
+39 silly shasum updated bytes 14208
+40 info shasum 3a6c3fad0e751fe48548d9d450eb373aef1ed478
+40 info shasum /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/tmp.tgz
+41 verbose tar unpack /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/tmp.tgz
+42 silly lockFile f6dd5211-49569-0-5666034312453121-package /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package
+43 verbose lock /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package /home/jonathan/.npm/f6dd5211-49569-0-5666034312453121-package.lock
+44 silly lockFile 737b611f-49569-0-5666034312453121-tmp-tgz /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/tmp.tgz
+45 verbose lock /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/tmp.tgz /home/jonathan/.npm/737b611f-49569-0-5666034312453121-tmp-tgz.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm extractEntry LICENSE
+51 silly gunzTarPerm extractEntry gulpfile.js
+52 silly gunzTarPerm extractEntry karma.conf.js
+53 silly gunzTarPerm extractEntry bower.json
+54 silly gunzTarPerm extractEntry .travis.yml
+55 silly gunzTarPerm extractEntry dist/angular-oauth2.js
+56 silly gunzTarPerm extractEntry dist/angular-oauth2.min.js
+57 silly gunzTarPerm extractEntry CHANGELOG.md
+58 silly gunzTarPerm extractEntry src/angular-oauth2.js
+59 silly gunzTarPerm extractEntry src/config/oauth-config.js
+60 silly gunzTarPerm extractEntry src/interceptors/oauth-interceptor.js
+61 silly gunzTarPerm extractEntry src/providers/oauth-provider.js
+62 silly gunzTarPerm extractEntry src/providers/oauth-token-provider.js
+63 silly gunzTarPerm extractEntry .jshintrc
+64 silly gunzTarPerm extractEntry test/mocks/angular-cookies.mock.js
+65 silly gunzTarPerm extractEntry test/unit/config/oauth-config.spec.js
+66 silly gunzTarPerm extractEntry test/unit/interceptors/oauth-interceptor.spec.js
+67 silly gunzTarPerm extractEntry test/unit/providers/oauth-provider.spec.js
+68 silly gunzTarPerm extractEntry test/unit/providers/oauth-token-provider.spec.js
+69 verbose read json /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package/package.json
+70 silly lockFile f6dd5211-49569-0-5666034312453121-package /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package
+71 silly lockFile f6dd5211-49569-0-5666034312453121-package /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package
+72 silly lockFile 737b611f-49569-0-5666034312453121-tmp-tgz /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/tmp.tgz
+73 silly lockFile 737b611f-49569-0-5666034312453121-tmp-tgz /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/tmp.tgz
+74 verbose from cache /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package/package.json
+75 verbose tar pack [ '/home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz',
+75 verbose tar pack   '/home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package' ]
+76 verbose tarball /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+77 verbose folder /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package
+78 silly lockFile f6dd5211-49569-0-5666034312453121-package /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package
+79 verbose lock /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package /home/jonathan/.npm/f6dd5211-49569-0-5666034312453121-package.lock
+80 silly lockFile d051860b-angular-oauth2-4-0-0-package-tgz /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+81 verbose lock /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz /home/jonathan/.npm/d051860b-angular-oauth2-4-0-0-package-tgz.lock
+82 silly lockFile f6dd5211-49569-0-5666034312453121-package /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package
+83 silly lockFile f6dd5211-49569-0-5666034312453121-package /home/jonathan/tmp/npm-8491/1458070849569-0.5666034312453121/package
+84 silly lockFile d051860b-angular-oauth2-4-0-0-package-tgz /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+85 silly lockFile d051860b-angular-oauth2-4-0-0-package-tgz /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+86 silly lockFile f7645252-npm-angular-oauth2-4-0-0-package /home/jonathan/.npm/angular-oauth2/4.0.0/package
+87 verbose lock /home/jonathan/.npm/angular-oauth2/4.0.0/package /home/jonathan/.npm/f7645252-npm-angular-oauth2-4-0-0-package.lock
+88 silly lockFile f7645252-npm-angular-oauth2-4-0-0-package /home/jonathan/.npm/angular-oauth2/4.0.0/package
+89 silly lockFile f7645252-npm-angular-oauth2-4-0-0-package /home/jonathan/.npm/angular-oauth2/4.0.0/package
+90 verbose tar unpack /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+91 silly lockFile f7645252-npm-angular-oauth2-4-0-0-package /home/jonathan/.npm/angular-oauth2/4.0.0/package
+92 verbose lock /home/jonathan/.npm/angular-oauth2/4.0.0/package /home/jonathan/.npm/f7645252-npm-angular-oauth2-4-0-0-package.lock
+93 silly lockFile d051860b-angular-oauth2-4-0-0-package-tgz /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+94 verbose lock /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz /home/jonathan/.npm/d051860b-angular-oauth2-4-0-0-package-tgz.lock
+95 silly gunzTarPerm modes [ '755', '644' ]
+96 silly gunzTarPerm extractEntry package.json
+97 silly gunzTarPerm extractEntry .npmignore
+98 silly gunzTarPerm extractEntry README.md
+99 silly gunzTarPerm extractEntry LICENSE
+100 silly gunzTarPerm extractEntry gulpfile.js
+101 silly gunzTarPerm extractEntry karma.conf.js
+102 silly gunzTarPerm extractEntry bower.json
+103 silly gunzTarPerm extractEntry dist/angular-oauth2.js
+104 silly gunzTarPerm extractEntry dist/angular-oauth2.min.js
+105 silly gunzTarPerm extractEntry .jshintrc
+106 silly gunzTarPerm extractEntry .travis.yml
+107 silly gunzTarPerm extractEntry CHANGELOG.md
+108 silly gunzTarPerm extractEntry src/angular-oauth2.js
+109 silly gunzTarPerm extractEntry src/config/oauth-config.js
+110 silly gunzTarPerm extractEntry src/interceptors/oauth-interceptor.js
+111 silly gunzTarPerm extractEntry src/providers/oauth-provider.js
+112 silly gunzTarPerm extractEntry src/providers/oauth-token-provider.js
+113 silly gunzTarPerm extractEntry test/mocks/angular-cookies.mock.js
+114 silly gunzTarPerm extractEntry test/unit/config/oauth-config.spec.js
+115 silly gunzTarPerm extractEntry test/unit/interceptors/oauth-interceptor.spec.js
+116 silly gunzTarPerm extractEntry test/unit/providers/oauth-provider.spec.js
+117 silly gunzTarPerm extractEntry test/unit/providers/oauth-token-provider.spec.js
+118 verbose read json /home/jonathan/.npm/angular-oauth2/4.0.0/package/package.json
+119 silly lockFile f7645252-npm-angular-oauth2-4-0-0-package /home/jonathan/.npm/angular-oauth2/4.0.0/package
+120 silly lockFile f7645252-npm-angular-oauth2-4-0-0-package /home/jonathan/.npm/angular-oauth2/4.0.0/package
+121 silly lockFile d051860b-angular-oauth2-4-0-0-package-tgz /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+122 silly lockFile d051860b-angular-oauth2-4-0-0-package-tgz /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+123 silly shasum updated bytes 14190
+124 info shasum 913311398b155f04866387095e50117e5ce2f40a
+124 info shasum /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+125 verbose from cache /home/jonathan/.npm/angular-oauth2/4.0.0/package/package.json
+126 verbose chmod /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz 644
+127 verbose chown /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz [ 1000, 1000 ]
+128 silly lockFile 1ef0b63f--oauth2-angular-oauth2-4-0-0-tgz https://registry.npmjs.org/angular-oauth2/-/angular-oauth2-4.0.0.tgz
+129 silly lockFile 1ef0b63f--oauth2-angular-oauth2-4-0-0-tgz https://registry.npmjs.org/angular-oauth2/-/angular-oauth2-4.0.0.tgz
+130 silly lockFile 4c756fc1-angular-oauth2-4-0-0 angular-oauth2@4.0.0
+131 silly lockFile 4c756fc1-angular-oauth2-4-0-0 angular-oauth2@4.0.0
+132 silly lockFile 61b9caaf-angular-oauth2 angular-oauth2@
+133 silly lockFile 61b9caaf-angular-oauth2 angular-oauth2@
+134 silly resolved [ { name: 'angular-oauth2',
+134 silly resolved     version: '4.0.0',
+134 silly resolved     description: 'Angular OAuth2',
+134 silly resolved     main: './dist/angular-oauth2.js',
+134 silly resolved     repository:
+134 silly resolved      { type: 'git',
+134 silly resolved        url: 'https://github.com/seegno/angular-oauth2.git' },
+134 silly resolved     keywords: [ 'AngularJS', 'Authentication', 'OAuth2' ],
+134 silly resolved     author: { name: 'Seegno', email: 'projects@seegno.com' },
+134 silly resolved     license: 'MIT',
+134 silly resolved     bugs: { url: 'https://github.com/seegno/angular-oauth2/issues' },
+134 silly resolved     homepage: 'https://github.com/seegno/angular-oauth2',
+134 silly resolved     dependencies:
+134 silly resolved      { angular: '^1.4.0',
+134 silly resolved        'angular-cookies': '^1.4.0',
+134 silly resolved        'query-string': '^1.0.0' },
+134 silly resolved     devDependencies:
+134 silly resolved      { 'angular-mocks': '^1.3.9',
+134 silly resolved        'github-changes': '^1.0.0',
+134 silly resolved        gulp: '^3.8.10',
+134 silly resolved        'gulp-babel': '^5.3.0',
+134 silly resolved        'gulp-concat': '^2.4.3',
+134 silly resolved        'gulp-header': '^1.2.2',
+134 silly resolved        'gulp-jshint': '^1.9.0',
+134 silly resolved        'gulp-rename': '^1.2.0',
+134 silly resolved        'gulp-uglify': '^1.0.2',
+134 silly resolved        'gulp-wrap-umd': '^0.2.1',
+134 silly resolved        'jshint-stylish': '^1.0.0',
+134 silly resolved        karma: '^0.13.0',
+134 silly resolved        'karma-browserify': '^2.0.0',
+134 silly resolved        'karma-chrome-launcher': '^0.1.7',
+134 silly resolved        'karma-firefox-launcher': '^0.1.4',
+134 silly resolved        'karma-mocha': '^0.1.10',
+134 silly resolved        'karma-mocha-reporter': '^0.3.1',
+134 silly resolved        'karma-should': '0.0.1',
+134 silly resolved        'karma-sinon': '^1.0.4',
+134 silly resolved        lodash: '^4.0.0',
+134 silly resolved        mocha: '^2.4.5',
+134 silly resolved        should: '^4.6.0',
+134 silly resolved        sinon: '^1.17.3',
+134 silly resolved        yargs: '^3.6.0' },
+134 silly resolved     scripts:
+134 silly resolved      { changelog: './node_modules/.bin/github-changes -o seegno -r angular-oauth2 -a --only-pulls --use-commit-body --title \'Changelog\' --date-format \'/ YYYY-MM-DD\'',
+134 silly resolved        test: './node_modules/.bin/gulp test --browsers Firefox' },
+134 silly resolved     readme: '# angular-oauth2 [![Build Status](https://travis-ci.org/seegno/angular-oauth2.svg)](https://travis-ci.org/seegno/angular-oauth2)\n\nAngularJS OAuth2 authentication module written in ES6.\n\n---\n\n## Installation\n\nChoose your preferred method:\n\n* Bower: `bower install angular-oauth2`\n* NPM: `npm install --save angular-oauth2`\n* Download: [angular-oauth2](https://raw.github.com/seegno/angular-oauth2/master/dist/angular-oauth2.min.js)\n\n## Usage\n\n###### 1. Download `angular-oauth2` dependencies.\n\n* [angular](https://github.com/angular/bower-angular)\n* [angular-cookies](https://github.com/angular/bower-angular-cookies)\n* [query-string](https://github.com/sindresorhus/query-string)\n\nIf you\'re using `bower` they will be automatically downloaded upon installing this library.\n\n###### 2. Include `angular-oauth2` and dependencies.\n\n```html\n<script src="<VENDOR_FOLDER>/angular/angular.min.js"></script>\n<script src="<VENDOR_FOLDER>/angular-cookies/angular-cookies.min.js"></script>\n<script src="<VENDOR_FOLDER>/query-string/query-string.js"></script>\n<script src="<VENDOR_FOLDER>/angular-oauth2/dist/angular-oauth2.min.js"></script>\n```\n\n###### 3. Configure `OAuth` (required) and `OAuthToken` (optional):\n\n```js\nangular.module(\'myApp\', [\'angular-oauth2\'])\n  .config([\'OAuthProvider\', function(OAuthProvider) {\n    OAuthProvider.configure({\n      baseUrl: \'https://api.website.com\',\n      clientId: \'CLIENT_ID\',\n      clientSecret: \'CLIENT_SECRET\' // optional\n    });\n  }]);\n```\n\n###### 4. Catch `OAuth` errors and do something with them (optional):\n\n```js\nangular.module(\'myApp\', [\'angular-oauth2\'])\n  .run([\'$rootScope\', \'$window\', \'OAuth\', function($rootScope, $window, OAuth) {\n    $rootScope.$on(\'oauth:error\', function(event, rejection) {\n      // Ignore `invalid_grant` error - should be catched on `LoginController`.\n      if (\'invalid_grant\' === rejection.data.error) {\n        return;\n      }\n\n      // Refresh token when a `invalid_token` error occurs.\n      if (\'invalid_token\' === rejection.data.error) {\n        return OAuth.getRefreshToken();\n      }\n\n      // Redirect to `/login` with the `error_reason`.\n      return $window.location.href = \'/login?error_reason=\' + rejection.data.error;\n    });\n  }]);\n```\n\n## API\n\n#### OAuthProvider\n\nConfiguration defaults:\n\n```js\nOAuthProvider.configure({\n  baseUrl: null,\n  clientId: null,\n  clientSecret: null,\n  grantPath: \'/oauth2/token\',\n  revokePath: \'/oauth2/revoke\'\n});\n```\n\n#### OAuth\n\nCheck authentication status:\n\n```js\n/**\n * Verifies if the `user` is authenticated or not based on the `token`\n * cookie.\n *\n * @return {boolean}\n */\n\nOAuth.isAuthenticated();\n```\n\nGet an access token:\n\n```js\n/**\n * Retrieves the `access_token` and stores the `response.data` on cookies\n * using the `OAuthToken`.\n *\n * @param {object} user - Object with `username` and `password` properties.\n * @param {object} config - Optional configuration object sent to `POST`.\n * @return {promise} A response promise.\n */\n\nOAuth.getAccessToken(user, options);\n```\n\nRefresh access token:\n\n```js\n/**\n * Retrieves the `refresh_token` and stores the `response.data` on cookies\n * using the `OAuthToken`.\n *\n * @return {promise} A response promise.\n */\n\nOAuth.getRefreshToken()\n```\n\nRevoke access token:\n\n```js\n/**\n * Revokes the `token` and removes the stored `token` from cookies\n * using the `OAuthToken`.\n *\n * @return {promise} A response promise.\n */\n\nOAuth.revokeToken()\n```\n\n**NOTE**: An *event* `oauth:error` will be sent everytime a `responseError` is emitted:\n\n* `{ status: 400, data: { error: \'invalid_request\' }`\n* `{ status: 400, data: { error: \'invalid_grant\' }`\n* `{ status: 401, data: { error: \'invalid_token\' }`\n* `{ status: 401, headers: { \'www-authenticate\': \'Bearer realm="example"\' } }`\n\n#### OAuthTokenProvider\n\n`OAuthTokenProvider` uses [angular-cookies](https://github.com/angular/bower-angular-cookies) to store the cookies. Check the [available options](https://code.angularjs.org/1.4.0/docs/api/ngCookies/service/$cookies).\n\nConfiguration defaults:\n\n```js\nOAuthTokenProvider.configure({\n  name: \'token\',\n  options: {\n    secure: true\n  }\n});\n```\n\n#### OAuthToken\n\nIf you want to manage the `token` yourself you can use `OAuthToken` service.\nPlease check the [OAuthToken](https://github.com/seegno/angular-oauth2/blob/master/src/providers/oauth-token-provider.js#L45) source code to see all the available methods.\n\n## Contributing & Development\n\n#### Contribute\n\nFound a bug or want to suggest something? Take a look first on the current and closed [issues](https://github.com/seegno/angular-oauth2/issues). If it is something new, please [submit an issue](https://github.com/seegno/angular-oauth2/issues/new).\n\n#### Develop\n\nIt will be awesome if you can help us evolve `angular-oauth2`. Want to help?\n\n1. [Fork it](https://github.com/seegno/angular-oauth2).\n2. `npm install`.\n3. Do your magic.\n4. Run the tests: `gulp test`.\n5. Build: `gulp build`\n6. Create a [Pull Request](https://github.com/seegno/angular-oauth2/compare).\n\n*The source files are written in ES6.*\n\n## Reference\n\n* http://tools.ietf.org/html/rfc2617\n* http://tools.ietf.org/html/rfc6749\n* http://tools.ietf.org/html/rfc6750\n* https://tools.ietf.org/html/rfc7009\n',
+134 silly resolved     readmeFilename: 'README.md',
+134 silly resolved     _id: 'angular-oauth2@4.0.0',
+134 silly resolved     dist: { shasum: '913311398b155f04866387095e50117e5ce2f40a' },
+134 silly resolved     _from: 'angular-oauth2@',
+134 silly resolved     _resolved: 'https://registry.npmjs.org/angular-oauth2/-/angular-oauth2-4.0.0.tgz' } ]
+135 info install angular-oauth2@4.0.0 into /var/www/html/blog
+136 info installOne angular-oauth2@4.0.0
+137 verbose from cache /home/jonathan/.npm/angular-oauth2/4.0.0/package/package.json
+138 info /var/www/html/blog/node_modules/angular-oauth2 unbuild
+139 verbose read json /var/www/html/blog/node_modules/angular-oauth2/package.json
+140 verbose tar unpack /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+141 silly lockFile 1ad009dd-blog-node-modules-angular-oauth2 /var/www/html/blog/node_modules/angular-oauth2
+142 verbose lock /var/www/html/blog/node_modules/angular-oauth2 /home/jonathan/.npm/1ad009dd-blog-node-modules-angular-oauth2.lock
+143 silly lockFile d051860b-angular-oauth2-4-0-0-package-tgz /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+144 verbose lock /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz /home/jonathan/.npm/d051860b-angular-oauth2-4-0-0-package-tgz.lock
+145 silly gunzTarPerm modes [ '755', '644' ]
+146 silly gunzTarPerm extractEntry package.json
+147 silly gunzTarPerm extractEntry .npmignore
+148 silly gunzTarPerm extractEntry README.md
+149 silly gunzTarPerm extractEntry LICENSE
+150 silly gunzTarPerm extractEntry gulpfile.js
+151 silly gunzTarPerm extractEntry karma.conf.js
+152 silly gunzTarPerm extractEntry bower.json
+153 silly gunzTarPerm extractEntry dist/angular-oauth2.js
+154 silly gunzTarPerm extractEntry dist/angular-oauth2.min.js
+155 silly gunzTarPerm extractEntry .jshintrc
+156 silly gunzTarPerm extractEntry .travis.yml
+157 silly gunzTarPerm extractEntry CHANGELOG.md
+158 silly gunzTarPerm extractEntry src/angular-oauth2.js
+159 silly gunzTarPerm extractEntry src/config/oauth-config.js
+160 silly gunzTarPerm extractEntry src/interceptors/oauth-interceptor.js
+161 silly gunzTarPerm extractEntry src/providers/oauth-provider.js
+162 silly gunzTarPerm extractEntry src/providers/oauth-token-provider.js
+163 silly gunzTarPerm extractEntry test/mocks/angular-cookies.mock.js
+164 silly gunzTarPerm extractEntry test/unit/config/oauth-config.spec.js
+165 silly gunzTarPerm extractEntry test/unit/interceptors/oauth-interceptor.spec.js
+166 silly gunzTarPerm extractEntry test/unit/providers/oauth-provider.spec.js
+167 silly gunzTarPerm extractEntry test/unit/providers/oauth-token-provider.spec.js
+168 verbose read json /var/www/html/blog/node_modules/angular-oauth2/package.json
+169 silly lockFile 1ad009dd-blog-node-modules-angular-oauth2 /var/www/html/blog/node_modules/angular-oauth2
+170 silly lockFile 1ad009dd-blog-node-modules-angular-oauth2 /var/www/html/blog/node_modules/angular-oauth2
+171 silly lockFile d051860b-angular-oauth2-4-0-0-package-tgz /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+172 silly lockFile d051860b-angular-oauth2-4-0-0-package-tgz /home/jonathan/.npm/angular-oauth2/4.0.0/package.tgz
+173 info preinstall angular-oauth2@4.0.0
+174 verbose from cache /var/www/html/blog/node_modules/angular-oauth2/package.json
+175 verbose readDependencies using package.json deps
+176 verbose from cache /var/www/html/blog/node_modules/angular-oauth2/package.json
+177 verbose readDependencies using package.json deps
+178 verbose cache add [ 'angular@^1.4.0', null ]
+179 verbose cache add name=undefined spec="angular@^1.4.0" args=["angular@^1.4.0",null]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: 'angular@^1.4.0',
+180 verbose parsed url   path: 'angular@^1.4.0',
+180 verbose parsed url   href: 'angular@^1.4.0' }
+181 verbose cache add name="angular" spec="^1.4.0" args=["angular","^1.4.0"]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: '^1.4.0',
+182 verbose parsed url   path: '^1.4.0',
+182 verbose parsed url   href: '^1.4.0' }
+183 verbose addNamed [ 'angular', '^1.4.0' ]
+184 verbose addNamed [ null, null ]
+185 silly lockFile b2028908-angular-1-4-0 angular@^1.4.0
+186 verbose lock angular@^1.4.0 /home/jonathan/.npm/b2028908-angular-1-4-0.lock
+187 verbose cache add [ 'angular-cookies@^1.4.0', null ]
+188 verbose cache add name=undefined spec="angular-cookies@^1.4.0" args=["angular-cookies@^1.4.0",null]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: 'angular-cookies@^1.4.0',
+189 verbose parsed url   path: 'angular-cookies@^1.4.0',
+189 verbose parsed url   href: 'angular-cookies@^1.4.0' }
+190 verbose cache add name="angular-cookies" spec="^1.4.0" args=["angular-cookies","^1.4.0"]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: '^1.4.0',
+191 verbose parsed url   path: '^1.4.0',
+191 verbose parsed url   href: '^1.4.0' }
+192 verbose addNamed [ 'angular-cookies', '^1.4.0' ]
+193 verbose addNamed [ null, null ]
+194 silly lockFile 3d34937f-angular-cookies-1-4-0 angular-cookies@^1.4.0
+195 verbose lock angular-cookies@^1.4.0 /home/jonathan/.npm/3d34937f-angular-cookies-1-4-0.lock
+196 info addNameTag [ 'angular', '^1.4.0' ]
+197 verbose cache add [ 'query-string@^1.0.0', null ]
+198 verbose cache add name=undefined spec="query-string@^1.0.0" args=["query-string@^1.0.0",null]
+199 verbose parsed url { protocol: null,
+199 verbose parsed url   slashes: null,
+199 verbose parsed url   auth: null,
+199 verbose parsed url   host: null,
+199 verbose parsed url   port: null,
+199 verbose parsed url   hostname: null,
+199 verbose parsed url   hash: null,
+199 verbose parsed url   search: null,
+199 verbose parsed url   query: null,
+199 verbose parsed url   pathname: 'query-string@^1.0.0',
+199 verbose parsed url   path: 'query-string@^1.0.0',
+199 verbose parsed url   href: 'query-string@^1.0.0' }
+200 verbose cache add name="query-string" spec="^1.0.0" args=["query-string","^1.0.0"]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: '^1.0.0',
+201 verbose parsed url   path: '^1.0.0',
+201 verbose parsed url   href: '^1.0.0' }
+202 verbose addNamed [ 'query-string', '^1.0.0' ]
+203 verbose addNamed [ null, null ]
+204 silly lockFile d6d80482-query-string-1-0-0 query-string@^1.0.0
+205 verbose lock query-string@^1.0.0 /home/jonathan/.npm/d6d80482-query-string-1-0-0.lock
+206 info addNameTag [ 'angular-cookies', '^1.4.0' ]
+207 verbose url raw angular
+208 verbose url resolving [ 'https://registry.npmjs.org/', './angular' ]
+209 verbose url resolved https://registry.npmjs.org/angular
+210 info trying registry request attempt 1 at 16:40:50
+211 http GET https://registry.npmjs.org/angular
+212 info addNameTag [ 'query-string', '^1.0.0' ]
+213 verbose url raw angular-cookies
+214 verbose url resolving [ 'https://registry.npmjs.org/', './angular-cookies' ]
+215 verbose url resolved https://registry.npmjs.org/angular-cookies
+216 info trying registry request attempt 1 at 16:40:50
+217 http GET https://registry.npmjs.org/angular-cookies
+218 verbose url raw query-string
+219 verbose url resolving [ 'https://registry.npmjs.org/', './query-string' ]
+220 verbose url resolved https://registry.npmjs.org/query-string
+221 info trying registry request attempt 1 at 16:40:50
+222 http GET https://registry.npmjs.org/query-string
+223 http 200 https://registry.npmjs.org/query-string
+224 silly registry.get cb [ 200,
+224 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+224 silly registry.get     etag: '"8RURZGU2P6JPELWF3G555H4P9"',
+224 silly registry.get     'content-type': 'application/json',
+224 silly registry.get     'cache-control': 'max-age=300',
+224 silly registry.get     'content-length': '24048',
+224 silly registry.get     'accept-ranges': 'bytes',
+224 silly registry.get     date: 'Tue, 15 Mar 2016 19:40:51 GMT',
+224 silly registry.get     via: '1.1 varnish',
+224 silly registry.get     age: '246',
+224 silly registry.get     connection: 'keep-alive',
+224 silly registry.get     'x-served-by': 'cache-iad2131-IAD',
+224 silly registry.get     'x-cache': 'HIT',
+224 silly registry.get     'x-cache-hits': '2',
+224 silly registry.get     'x-timer': 'S1458070851.719343,VS0,VE0',
+224 silly registry.get     vary: 'Accept' } ]
+225 silly lockFile d6d80482-query-string-1-0-0 query-string@^1.0.0
+226 silly lockFile d6d80482-query-string-1-0-0 query-string@^1.0.0
+227 verbose about to build /var/www/html/blog/node_modules/angular-oauth2
+228 info /var/www/html/blog/node_modules/angular-oauth2 unbuild
+229 verbose from cache /var/www/html/blog/node_modules/angular-oauth2/package.json
+230 info preuninstall angular-oauth2@4.0.0
+231 info uninstall angular-oauth2@4.0.0
+232 verbose true,/var/www/html/blog/node_modules,/var/www/html/blog/node_modules unbuild angular-oauth2@4.0.0
+233 info postuninstall angular-oauth2@4.0.0
+234 error Error: No compatible version found: query-string@'^1.0.0'
+234 error Valid install targets:
+234 error ["0.1.0","0.1.1","0.2.0","0.3.0","0.3.1","0.4.0","0.4.1","1.0.0","1.0.1","2.0.0","2.1.0","2.2.0","2.3.0","2.4.0","2.4.1","2.4.2","3.0.0","3.0.1"]
+234 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:685:10)
+234 error     at /usr/local/lib/node_modules/npm/lib/cache.js:607:10
+234 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+234 error     at Object.oncomplete (fs.js:107:15)
+235 error If you need help, you may report this log at:
+235 error     <http://github.com/isaacs/npm/issues>
+235 error or email it to:
+235 error     <npm-@googlegroups.com>
+236 error System Linux 4.2.0-34-generic
+237 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "angular-oauth2"
+238 error cwd /var/www/html/blog/public/app
+239 error node -v v0.10.4
+240 error npm -v 1.2.18
+241 verbose exit [ 1, true ]
