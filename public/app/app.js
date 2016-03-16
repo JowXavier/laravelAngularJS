@@ -1,6 +1,6 @@
-var app = angular.module('app', ['ngRoute', 'angular-oauth2', 'app.controllers']);
+var app = angular.module('app',['ngRoute', 'angular-oauth2', 'app.controllers']);
 
-angular.module('app.controllers', ['angular-oauth2']);
+angular.module('app.controllers',['angular-oauth2']);
 
 app.config(['$routeProvider','OAuthProvider',function($routeProvider,OAuthProvider) {
 	$routeProvider
@@ -16,7 +16,8 @@ app.config(['$routeProvider','OAuthProvider',function($routeProvider,OAuthProvid
 	    OAuthProvider.configure({
 	      baseUrl: 'http://localhost:8000',
 	      clientId: 'app',
-	      clientSecret: 'secret' // optional
+	      clientSecret: 'secret', // optional
+	      grantPath: 'oauth2/access_token'
 	    });
 }]);
 

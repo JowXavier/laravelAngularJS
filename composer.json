@@ -4,10 +4,12 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "mininum-stability":"dev",
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
-        "illuminate/html": "^5.0"
+        "illuminate/html": "^5.0",
+        "lucadegasperi/oauth2-server-laravel": "5.0.*@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

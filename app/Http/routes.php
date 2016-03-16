@@ -18,6 +18,10 @@ Route::controllers([
 	'password' =>	'Auth\PasswordController'
 ]);
 
+Route::get('oauth2/access_token', function() {
+    return Response::json(Authorizer::issueAccessToken());
+});
+
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
 
 	Route::group(['prefix' => 'posts'], function() {
