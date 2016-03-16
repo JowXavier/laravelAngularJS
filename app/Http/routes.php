@@ -18,7 +18,7 @@ Route::controllers([
 	'password' =>	'Auth\PasswordController'
 ]);
 
-Route::get('oauth2/access_token', function() {
+Route::post('oauth2/access_token', function() {
     return Response::json(Authorizer::issueAccessToken());
 });
 

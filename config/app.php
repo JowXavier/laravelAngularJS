@@ -197,7 +197,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-        'Authorizer'=> 'LucaDegasperi\OAuth2Server\Facades\Authorizer',
+        'Authorizer'=> LucaDegasperi\OAuth2Server\Facades\Authorizer::class,
         'Form'      => \Illuminate\Html\FormFacade::class,
         'Html'      => \Illuminate\Html\HtmlFacade::class
 
