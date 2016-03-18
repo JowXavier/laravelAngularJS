@@ -22,7 +22,7 @@ Route::post('oauth2/access_token', function() {
     return Response::json(Authorizer::issueAccessToken());
 });
 
-Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
+Route::group(['prefix' => 'admin', 'middleware' => 'oauth'], function() {
 
 	Route::group(['prefix' => 'posts'], function() {
 

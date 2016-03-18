@@ -61,6 +61,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-resource.min.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-messages.min.js"></script>
 		<!-- Login -->
 		<script src="{{ asset('app/bower/angular-cookies/angular-cookies.min.js') }}"></script>
 		<script src="{{ asset('app/bower/query-string/query-string.js') }}"></script>
