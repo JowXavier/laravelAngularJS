@@ -55,9 +55,8 @@
 
 		<!-- @yield('content') -->
 		<div ng-view></div>
+
 		<!-- Scripts -->
-
-
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-resource.min.js"></script>
@@ -67,10 +66,17 @@
 		<script src="{{ asset('app/bower/angular-cookies/angular-cookies.min.js') }}"></script>
 		<script src="{{ asset('app/bower/query-string/query-string.js') }}"></script>
 		<script src="{{ asset('app/bower/angular-oauth2/dist/angular-oauth2.min.js') }}"></script>
-
-		<script src="{{ asset('app/app.js') }}"></script>
+		
+		<!-- App -->
+		<script src="{{ asset('app/app.js') }}"></script>		
+	
+		<!-- Controllers -->
 		<script src="{{ asset('app/controllers/login.js') }}"></script>
 		<script src="{{ asset('app/controllers/home.js') }}"></script>
+		<script src="{{ asset('app/controllers/post/postList.js') }}"></script>
+		
+		<!-- Services -->
+		<script src="{{ asset('app/services/post.js') }}"></script>
 
 	</body>
 </html>

@@ -11,16 +11,20 @@
 |
 */
 
-Route::get('/','PostsController@index');
+Route::get('/','PostsController@angular');
 
 Route::controllers([
 	'auth'     =>	'Auth\AuthController',
 	'password' =>	'Auth\PasswordController'
 ]);
 
+Route::get('posts', 'PostsController@index');
+
 Route::post('oauth2/access_token', function() {
     return Response::json(Authorizer::issueAccessToken());
 });
+
+Route::get('posts', ['as' => 'posts.index', 'uses' => 'PostsController@index']);
 
 Route::group(['prefix' => 'admin', 'middleware' => 'oauth'], function() {
 

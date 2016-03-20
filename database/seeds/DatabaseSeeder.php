@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-/*        factory('App\User')->create(
+        /*factory('App\User')->create(
             [
                 'name' => 'Jonathan Xavier',
                 'email' => 'jonathanxribeiro@gmail.com',

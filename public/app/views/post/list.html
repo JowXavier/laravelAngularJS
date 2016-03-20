@@ -1,0 +1,27 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="panel panel-default">
+				<div class="panel-heading">Listagem de posts</div>
+				<div class="panel-body">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>ID</<th>
+								<th>Titulo</th>
+								<th>Descrição</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr ng-repeat="p in posts">
+								<td>{{ p.id }}</td>
+								<td>{{ p.title }}</td>
+								<td>{{ p.content }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

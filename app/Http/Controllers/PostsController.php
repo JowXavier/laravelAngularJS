@@ -10,9 +10,14 @@ use App\Http\Controllers\Controller;
 
 class PostsController extends Controller
 {
-    public function index()
+    public function angular()
     {
 	    $posts = \App\Post::all();
 	    return view('posts.index', compact('posts'));
+    }
+
+    public function index()
+    {
+	    return \App\Post::all();
     }
 }
