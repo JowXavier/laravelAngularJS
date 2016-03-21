@@ -31,6 +31,14 @@ app.config([
 		.when('/posts', {
 			templateUrl: 'app/views/post/list.html',
 			controller: 'PostListController'
+		})
+		.when('/post/novo', {
+			templateUrl: 'app/views/post/novo.html',
+			controller: 'PostNovoController'
+		})
+		.when('/posts/:id/editar', {
+			templateUrl: 'app/views/post/editar.html',
+			controller: 'PostEditarController'
 		});
 
 	    OAuthProvider.configure({

@@ -20,4 +20,19 @@ class PostsController extends Controller
     {
 	    return \App\Post::all();
     }
+
+    public function store(Request $request)
+    {
+        return Post::create($request->all());
+    }
+
+    public function show($id)
+    {
+        return Post::find($id);
+    }
+
+    public function update($id, Request $request)
+    {
+        return Post::find($id)->update($request->all());
+    }
 }

@@ -74,6 +74,8 @@
 		<script src="{{ asset('app/controllers/login.js') }}"></script>
 		<script src="{{ asset('app/controllers/home.js') }}"></script>
 		<script src="{{ asset('app/controllers/post/postList.js') }}"></script>
+		<script src="{{ asset('app/controllers/post/postNovo.js') }}"></script>
+		<script src="{{ asset('app/controllers/post/postEditar.js') }}"></script>
 		
 		<!-- Services -->
 		<script src="{{ asset('app/services/post.js') }}"></script>
