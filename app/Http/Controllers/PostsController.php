@@ -33,6 +33,15 @@ class PostsController extends Controller
 
     public function update($id, Request $request)
     {
-        return Post::find($id)->update($request->all());
+        if (Post::find($id)->update($request->all())) {
+            return json_encode(array('message' => 'success'));
+        }        
+    }
+
+    public function destroy($id)
+    {   
+        if (Post::find($id)->delete($id)) {
+            return json_encode(array('message' => 'success'));
+        } 
     }
 }

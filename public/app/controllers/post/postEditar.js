@@ -6,7 +6,7 @@ angular.module('app.controllers')
 
 		$scope.save = function() { 
 			if ($scope.form.$valid) {
-				Post.update({id: $scope.post.id, $scope.post, function() {
+				Post.update({id: $scope.post.id}, $scope.post, function() { 
 					$location.path('/posts');
 				});
 			}

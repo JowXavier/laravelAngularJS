@@ -26,6 +26,7 @@ Route::get('posts', ['as' => 'posts.index', 'uses' => 'PostsController@index']);
 Route::get('posts/{id}', ['as' => 'posts.show', 'uses' => 'PostsController@show']);
 Route::post('posts', ['as' => 'posts.store', 'uses' => 'PostsController@store']);
 Route::put('posts/{id}', ['as' => 'posts.update', 'uses' => 'PostsController@update']);
+Route::delete('posts/{id}', ['as' => 'posts.destroy', 'uses' => 'PostsController@destroy']);
 
 Route::group(['prefix' => 'admin', 'middleware' => 'oauth'], function() {
 

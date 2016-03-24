@@ -39,6 +39,10 @@ app.config([
 		.when('/posts/:id/editar', {
 			templateUrl: 'app/views/post/editar.html',
 			controller: 'PostEditarController'
+		})
+		.when('/posts/:id/remover', {
+			templateUrl: 'app/views/post/remover.html',
+			controller: 'PostRemoverController'
 		});
 
 	    OAuthProvider.configure({
