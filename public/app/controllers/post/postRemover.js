@@ -5,7 +5,7 @@ angular.module('app.controllers')
 		$scope.post = Post.get({id: $routeParams.id});
 
 		$scope.remove = function() { 
-			$scope.Post.$delete().then( function() {
+			$scope.post.$delete().then(function() {
 				$location.path('/posts');
 			});
 		}
