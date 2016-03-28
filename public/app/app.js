@@ -17,8 +17,8 @@ app.provider('appConfig', function() {
 });
 
 app.config([
-	'$routeProvider','OAuthProvider', 'appConfigProvider', 
-	function($routeProvider,OAuthProvider, appConfigProvider) {
+	'$routeProvider', 'OAuthProvider', 'OAuthTokenProvider', 'appConfigProvider', 
+	function($routeProvider, OAuthProvider, OAuthTokenProvider, appConfigProvider) {
 	$routeProvider
 		.when('/login', {
 			templateUrl: 'app/views/login.html',
@@ -51,6 +51,13 @@ app.config([
 	      clientSecret: 'secret', // optional
 	      grantPath: 'oauth2/access_token'
 	    });
+
+	    OAuthTokenProvider.configure({
+	    	name: 'token',
+	    	options: {
+	    		secure: false
+	    	}
+	    })
 }]);
 
 app.run(['$rootScope', '$window', 'OAuth', function($rootScope, $window, OAuth) {
@@ -66,6 +73,7 @@ app.run(['$rootScope', '$window', 'OAuth', function($rootScope, $window, OAuth) 
 	  }
 
 	  // Redirect to `/login` with the `error_reason`.
-	  return $window.location.href = '/login?error_reason=' + rejection.data.error;
+	  //return $window.location.href = '/login?error_reason=' + rejection.data.error;
+	  return $window.location.href = '/#/login';
 	});
 }]);

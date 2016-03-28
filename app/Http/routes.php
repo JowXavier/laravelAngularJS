@@ -22,7 +22,7 @@ Route::post('oauth2/access_token', function() {
     return Response::json(Authorizer::issueAccessToken());
 });
 
-Route::get('posts', ['as' => 'posts.index', 'uses' => 'PostsController@index']);
+Route::get('posts', ['as' => 'posts.index', 'middleware' => 'oauth', 'uses' => 'PostsController@index']);
 Route::get('posts/{id}', ['as' => 'posts.show', 'uses' => 'PostsController@show']);
 Route::post('posts', ['as' => 'posts.store', 'uses' => 'PostsController@store']);
 Route::put('posts/{id}', ['as' => 'posts.update', 'uses' => 'PostsController@update']);
